@@ -60,7 +60,7 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
 
     player.onDurationChanged.listen((duration) {
       setState(() {
-        totalDuration = duration; // Met à jour la durée totale
+        totalDuration = duration;
       });
     });
 
@@ -91,7 +91,7 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
         currentIndex = index;
         isPlaying = false;
         currentPosition = Duration.zero;
-        totalDuration = Duration.zero; // Réinitialise la durée
+        totalDuration = Duration.zero;
       });
     } catch (e) {
       print("Error during loading: $e");
@@ -107,7 +107,6 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
         isPlaying = true;
       });
 
-      // Met à jour la durée totale si elle n'est pas correctement initialisée
       Future.delayed(Duration(seconds: 1), () async {
         final duration = await player.getDuration();
         if (duration != null) {

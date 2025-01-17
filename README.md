@@ -3,6 +3,8 @@ Je suis Mohamed Hamza Machnaoui, un développeur Fullstack passionné par le cod
 
 # 🎵 Music Player - Flutter App
 
+Demo : https://local-music-app-flutter.vercel.app/
+
 ## 🌟 Introduction
 
 Bienvenue dans **Music Player**, une application Flutter conçue pour lire des fichiers audio avec des fonctionnalités avancées ! Ce projet est idéal pour explorer les capacités de Flutter dans le domaine du développement multimédia.
