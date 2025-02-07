@@ -30,15 +30,15 @@ class _MusicPlayerScreenState extends State<MusicPlayerScreen> {
 
   final List<String> musicFiles = [
     'music/music6.mp3',
-    'music/music.mp3',
+    //'music/music.mp3',
     'music/music01.wav',
     'music/music3.mp3',
     'music/music4.mp3',
     'music/music5.mp3',
-    'music/music7.mp3',
+    /*'music/music7.mp3',
     'music/music8.mp3',
     'music/music9.mp3',
-    'music/music10.mp3',
+    'music/music10.mp3',*/
     'music/music11.mp3',
     'music/music12.mp3',
     'music/music13.mp3',
